@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --font-family: "Archivo";
+  --brand-color: #1e9e6a;
+  --dark-10: #1a202c;
+  --dark-20: #656769;
+  --dark-30: #e8e8e8;
+  --dark-40: #f7fafc;
+  --dark-50: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family);
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}

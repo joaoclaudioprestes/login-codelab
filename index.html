@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - CodeLab</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="right">
+        <div class="container-right">
+          <img src="assets/img/svg.svg" alt="Imagem" />
+        </div>
+      </div>
+      <div class="left">
+        <div class="container-left">
+          <div class="title">
+            <p>Bem-vindo de volta</p>
+            <h1>Faça login na sua conta</h1>
+          </div>
+          <form action="#">
+            <label for="email" class="label-email">
+              E-mal
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="exemplo@gmail.com"
+              />
+            </label>
+            <label for="password" class="label-password">
+              Senha
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="0123456789"
+              />
+            </label>
+
+            <div class="div-remenber">
+              <label for="remenber" class="label-remenber">
+                <input type="radio" name="remenber" id="radiusRemember" />
+                Lembre de mim
+              </label>
+
+              <span class="forgot">
+                <a href="#">Esqueceu sua senha?</a>
+              </span>
+            </div>
+
+            <div class="div-buttons">
+              <button type="submit" class="btn-login" id="btnLogin">Entrar na conta</button>
+              <button type="submit" class="btn-google" id="btnGoogle">
+                <img src="assets/img/icon.svg" alt="Icon - Google" /> Ou faça
+                login com o Google
+              </button>
+            </div>
+
+            <span class="register">
+              Não tem uma conta? <a href="#">Cadastre-se</a>
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="scripts/index.js"></script>
+  </body>
+</html>
